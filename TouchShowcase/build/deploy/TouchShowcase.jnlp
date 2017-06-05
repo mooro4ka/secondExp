@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="TouchShowcase.jnlp">
+  <information>
+    <title>TouchShowcase</title>
+    <vendor>kazey@n-sida</vendor>
+    <description>TouchShowcase</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="TouchShowcase.jar" size="46406" download="eager" />
+    <jar href="libs/h2-1.4.191.jar" size="1763882" download="eager" />
+    <jar href="libs/jssc-2.8.0.jar" size="153562" download="eager" />
+    <jar href="libs/log4j-1.2.17.jar" size="489883" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="nsida.kazey.showcase.MainApp"  name="TouchShowcase" />
+  <update check="background"/>
+</jnlp>

@@ -1,0 +1,27 @@
+.button {
+    -fx-font-size: 15pt;
+    -fx-font-weight: bold;
+    -fx-font-family: "Droid Sans";
+    -fx-text-fill: darkolivegreen;
+    -fx-opacity: 1;
+    -fx-background-radius: 11;
+}
+
+.textField .label {
+    -fx-font-size: 15pt;
+    -fx-font-weight: bold;
+    -fx-font-family: "Droid Sans";
+    -fx-text-fill: darkolivegreen;
+    -fx-opacity: 1;
+    -fx-background-radius: 11;
+}
+
+.TableView  {
+    -fx-font-size: 15pt;
+    -fx-font-weight: bold;
+    -fx-font-family: "Droid Sans";
+    -fx-text-fill: darkolivegreen;
+    -fx-opacity: 1;
+    -fx-background-radius: 11;
+}
+

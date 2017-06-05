@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<appSettingsWrapper>
+    <hashtable>
+        <entry>
+            <key>printerPort</key>
+            <value>/dev/ttyS0</value>
+        </entry>
+        <entry>
+            <key>bd</key>
+            <value>~/EclipseProjects/TouchShowcase/bd/Showcase</value>
+        </entry>
+        <entry>
+            <key>scalePort</key>
+            <value>/dev/ttyACM0</value>
+        </entry>
+        <entry>
+        	<key>ftpDir</key>
+        	<value>/home/ftpdir/scale</value></entry>
+        <entry>
+        	<key>localGoodsImageDir</key>
+        	<value>picts/goods</value></entry>
+        <entry>
+        	<key>localProgramDir</key>
+        	<value>/TS</value></entry></hashtable>
+</appSettingsWrapper>

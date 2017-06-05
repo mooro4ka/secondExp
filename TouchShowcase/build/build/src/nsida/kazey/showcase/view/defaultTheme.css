@@ -1,0 +1,46 @@
+#item {
+    -fx-background-radius: 11;
+    -fx-background-color: #CBF1A1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 9pt;
+    -fx-font-family: "Droid Sans";
+    -fx-text-fill: darkolivegreen;
+}
+
+#group {
+    -fx-background-radius: 10;
+    -fx-background-color:
+    	radial-gradient(center 90% 10% , radius 120% , #E0F1EF, #CBF1A1);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+	-fx-font-weight: bold;
+	-fx-font-size: 11pt;
+    -fx-font-family: "Droid Sans";
+    -fx-text-fill: darkolivegreen;
+    -fx-opacity: 1;
+}
+
+.label-header {
+    -fx-font-size: 18pt;
+    -fx-font-family: "Droid Sans";
+    -fx-text-fill: darkolivegreen;
+    -fx-font-weight: bold;
+    -fx-opacity: 1;
+}
+
+.button {
+    -fx-font-size: 25pt;
+    -fx-font-family: "Calibri";
+    -fx-text-fill: darkolivegreen;
+    -fx-opacity: 1;
+    -fx-background-color: #E9F6F1;	
+    -fx-background-radius: 11;
+}
+
+.label-showcaseBody {
+    
+}
+
+.background {
+    -fx-background-radius: 12;
+}
