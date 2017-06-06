@@ -45,7 +45,7 @@ public class MainApp extends Application {
 		AppSettings.loadSettings(getAppSettingsFile());
 		
 		//log = Logger.getLogger(MainApp.class.getName());
-		
+		/*
 		termoPrinter = new TermoPrinter(AppSettings.get("printerPort").trim());
 		try {
 			termoPrinter.pushLabel();
@@ -58,7 +58,7 @@ public class MainApp extends Application {
 			getScaleProvider().start();
 		
 		goodsLoader = new GoodsLoader();
-		goodsLoader.Start();
+		goodsLoader.Start();*/
 		
 	}
 	
@@ -72,12 +72,13 @@ public class MainApp extends Application {
 	@Override
 	public void start(Stage primaryStage) {		
 			
-		initShowcase();
-		initPacking();
+		//initShowcase();
+		//initPacking();
 		initSettingsMode();
 		
 		setCommonProps(primaryStage);		
-		setMainScene();	
+		//setMainScene();
+		setSettingsModeScene();
 		showPrimaryStage();
 	}
 	
@@ -176,7 +177,7 @@ public class MainApp extends Application {
 			settingsModeController = loader.getController();
 			settingsModeController.setMainApplication(this);		
 			
-			getTermoPrinter().AddListener(settingsModeController);
+			//getTermoPrinter().AddListener(settingsModeController);
 			
 			settingsModeScene = new Scene(page);			
 			

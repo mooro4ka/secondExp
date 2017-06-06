@@ -24,7 +24,7 @@ public class SettingsModeController implements IPrinterListner{
 	
 	@FXML
 	private void initialize() {
-		refreshIP();
+		//refreshIP();
 	}
 
 	@FXML
